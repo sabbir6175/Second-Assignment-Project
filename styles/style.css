@@ -171,9 +171,9 @@
  }
  .img-box .img-title{
   font-size: 16px;
-    font-weight: 600;
-    /* line-height: 160%; */
-    margin-bottom: 10px;
+  font-weight: 600;
+  /* line-height: 160%; */
+  margin-bottom: 10px;
 }
 .img-box .img-discription{
   font-size: 12px;
@@ -183,3 +183,57 @@
 .about-area{
   margin-bottom: 100px;
 }
+
+/* about section second step start */
+.second-step{
+  background-color:rgb(34, 34, 34);
+  border-radius: 18px;
+  margin-bottom: 100px;
+}
+.second-title-image{
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+
+}
+.second-title-image img{
+  width: 366px;
+  border-radius: 18px;
+}
+.second-title-image .second-title{
+  padding: 41px 0px 44px 54px;
+}
+.second-title-image .second-image{
+  padding: 31px 32px 30px 0px ;
+}
+.second-step-title{
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 130%;
+  margin-bottom: 1rem;
+}
+.second-step-discription{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 130%;
+  margin-bottom: 40px;
+}
+ /* third-step */
+ .third-part{
+  margin-bottom: 90px;
+ }
+ .third-step{
+  max-width: 600px;
+  margin: 0 auto;
+  
+ }
+ .third-step-title{
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 130%;
+ }
+ .third-step-discription{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 130%;
+ }
