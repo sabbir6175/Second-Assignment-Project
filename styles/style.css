@@ -338,7 +338,7 @@
   grid-template-columns: repeat(3,1fr);
   gap: 20px;
 }
-.first-image{
+.first-image-part{
   background-image:url("../images/trainer1.png");
   background-repeat: no-repeat;
   height: 315px;
@@ -346,35 +346,35 @@
   border-radius: 18px;
 
 }
-.second-image{
+.second-image-part{
   background-image: url("../images/trainer2.png");
   background-repeat: no-repeat;
   height: 315px;
   background-size: cover;
   border-radius: 18px;
 }
-.third-image{
+.third-image-part{
   background-image: url("../images/trainer3.png");
   background-repeat: no-repeat;
   height: 315px;
   background-size: cover;
   border-radius: 18px;
 }
-.four-image{
+.four-image-part{
   background-image: url("../images/trainer4.png");
   background-repeat: no-repeat;
   height: 315px;
   background-size: cover;
   border-radius: 18px;
 }
-.five-image{
+.five-image-part{
   background-image: url("../images/trainer5.png");
   background-repeat: no-repeat;
   height: 315px;
   background-size: cover;
   border-radius: 18px;
 }
-.six-image{
+.six-image-part{
   background-image: url("../images/trainer6.png");
   background-repeat: no-repeat;
   height: 315px;
