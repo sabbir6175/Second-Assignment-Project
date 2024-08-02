@@ -60,7 +60,7 @@
   background: rgb(0, 0, 0);
 }
 .color2{
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.5);
 }
 /* header-area start */
 #header-area{
@@ -195,7 +195,7 @@
   line-height: 120%;
 }
 .about-area{
-  margin-bottom: 100px;
+  margin-bottom: 90px;
 }
 
 /* about section second step start */
@@ -254,6 +254,9 @@
  }
  
  /* four-part start */
+ .four-part{
+  margin-bottom: 90px;
+ }
  .bmi-calculator-chart{
     width: 40%;
  }
@@ -292,12 +295,8 @@
   font-size: 17px;
   line-height: 24px;
   margin-bottom: 25px;
-
 }
-/* .calculator-input-type{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-} */
+
  .two-input {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -316,4 +315,69 @@
 .two-input-columns{
   margin-top: 10px;
   margin-bottom: 30px;
+}
+/* five-area start */
+.five-part-meet-your-team{
+  max-width: 650px;
+  margin: 0 auto;
+}
+.five-step-title{
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 66px;
+}
+.five-step-discription{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 60px;
+}
+.all-image{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+.first-image{
+  background-image:url("../images/trainer1.png");
+  background-repeat: no-repeat;
+  height: 315px;
+  background-size: cover;
+  border-radius: 18px;
+
+}
+.second-image{
+  background-image: url("../images/trainer2.png");
+  background-repeat: no-repeat;
+  height: 315px;
+  background-size: cover;
+  border-radius: 18px;
+}
+.third-image{
+  background-image: url("../images/trainer3.png");
+  background-repeat: no-repeat;
+  height: 315px;
+  background-size: cover;
+  border-radius: 18px;
+}
+.four-image{
+  background-image: url("../images/trainer4.png");
+  background-repeat: no-repeat;
+  height: 315px;
+  background-size: cover;
+  border-radius: 18px;
+}
+.five-image{
+  background-image: url("../images/trainer5.png");
+  background-repeat: no-repeat;
+  height: 315px;
+  background-size: cover;
+  border-radius: 18px;
+}
+.six-image{
+  background-image: url("../images/trainer6.png");
+  background-repeat: no-repeat;
+  height: 315px;
+  background-size: cover;
+  border-radius: 18px;
 }
