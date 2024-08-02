@@ -1,10 +1,18 @@
 
+/* font family link miama */
+
+ @import url('https://fonts.cdnfonts.com/css/miama?styles=170364,627');
+
+                
+
+  
 *{
   margin: 0;
   padding: 0;
   text-decoration: none;
   list-style: none;
 }
+              
 .inter-font-family{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -29,13 +37,13 @@
   color: rgb(250, 250, 249);
 }
 .btn-primary{
-  padding: 19px 57px;
+  padding: 17px 50px;
   background-color: rgb(230, 83, 60);
   border: none;
   border-radius: 30px;
 }
 .btn-primary2{
-  padding: 19px 57px;
+  padding: 17px 50px;
   color: rgb(255, 255, 255);
   background-color: black;
   border: 1px solid rgb(255, 255, 255);
@@ -50,6 +58,9 @@
 }
 .backround{
   background: rgb(0, 0, 0);
+}
+.color2{
+  color: rgba(255, 255, 255, 0.6);
 }
 /* header-area start */
 #header-area{
@@ -109,11 +120,17 @@
 /* banner title */
 
 
-.banner-area em{
-  font-weight: 200;
+.banner-shape{
+  font-family: 'Miama', sans-serif;
+  font-weight: 400;
+  font-size: 146px;
+                                                
 }
 .banner-discription{
   margin-bottom: 19px;
+  font-size: 15px;
+  line-height: 30px;
+
 }
 .image-area img{
   height: 520px;
@@ -138,9 +155,6 @@
  /* ==========================
     About section start
  ===============================*/
- #about-section{
-  background: rgb(0, 0, 0);
- }
  .about-main-content{
   max-width: 600px;
   margin: 0 auto;
@@ -199,9 +213,10 @@
 .second-title-image img{
   width: 366px;
   border-radius: 18px;
+  height: 312px;
 }
 .second-title-image .second-title{
-  padding: 41px 0px 44px 54px;
+  padding: 27px 0px 27px 54px;
 }
 .second-title-image .second-image{
   padding: 31px 32px 30px 0px ;
@@ -213,27 +228,92 @@
   margin-bottom: 1rem;
 }
 .second-step-discription{
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 130%;
+  line-height: 24px;
   margin-bottom: 40px;
 }
  /* third-step */
  .third-part{
-  margin-bottom: 90px;
+    margin-bottom: 90px;
  }
  .third-step{
-  max-width: 600px;
-  margin: 0 auto;
+    max-width: 600px;
+    margin: 0 auto;
   
  }
  .third-step-title{
-  font-size: 48px;
-  font-weight: 900;
-  line-height: 130%;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 130%;
  }
  .third-step-discription{
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 130%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 130%;
  }
+ 
+ /* four-part start */
+ .bmi-calculator-chart{
+    width: 40%;
+ }
+ .calculator-title{
+    font-size: 28px;
+    font-weight: 900;
+    text-align: left;
+    line-height: 55px;
+    margin-bottom: 32px;
+ }
+ .calculate-your-bmi{
+    width: 60%;
+ }
+ .bmi-calculator-chart tr,th,td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+ }
+ .Calculator-table th{
+    color:rgb(255, 255, 255) ;
+    text-align: left;
+    padding: 8px 15px 8px 15px;
+ }
+ .Calculator-table td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px 15px 8px 15px;
+ }
+ .calculator-bmi-title{
+    font-size: 28px;
+    font-weight: 900;
+    text-align: left;
+    line-height: 55px;
+ }
+.Calculator-discription{
+  font-size: 17px;
+  line-height: 24px;
+  margin-bottom: 25px;
+
+}
+/* .calculator-input-type{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+} */
+ .two-input {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 11px;
+  justify-content: center;
+  align-items: center;
+ }
+ .input-box{
+  width: 100%;
+  padding: 12px 40px 12px 20px;
+  text-align: left;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+ }
+.two-input-columns{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
