@@ -60,7 +60,10 @@
   background: rgb(0, 0, 0);
 }
 .color2{
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.4);
+}
+.position{
+  position: relative;
 }
 /* header-area start */
 #header-area{
@@ -233,7 +236,7 @@
   line-height: 24px;
   margin-bottom: 40px;
 }
- /* third-step */
+ /*about section third-step */
  .third-part{
     margin-bottom: 90px;
  }
@@ -253,7 +256,7 @@
     line-height: 130%;
  }
  
- /* four-part start */
+ /*about section four-part start */
  .four-part{
   margin-bottom: 90px;
  }
@@ -311,12 +314,16 @@
   border: none;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.3);
+  font-weight: 400;
  }
 .two-input-columns{
   margin-top: 10px;
   margin-bottom: 30px;
 }
-/* five-area start */
+/* about section five-area start */
+.five-part{
+  margin-bottom: 90px;
+}
 .five-part-meet-your-team{
   max-width: 650px;
   margin: 0 auto;
@@ -344,7 +351,6 @@
   height: 315px;
   background-size: cover;
   border-radius: 18px;
-
 }
 .second-image-part{
   background-image: url("../images/trainer2.png");
@@ -380,4 +386,72 @@
   height: 315px;
   background-size: cover;
   border-radius: 18px;
+}
+.text-image{
+  position: absolute;
+  left: 20px;
+  top: 82%;
+}
+/* ===============================
+    footer section start
+==================================*/
+.footer-area{
+  margin-bottom: 30px;
+}
+.footer-area-two-part{
+  width: 100%;
+  display: flex;
+  gap: 50px;
+}
+.footer-first-step{
+  width: 50%;
+  padding: 0 70px 32px 0px;
+}
+.footer-area-title-discription{
+  padding: 0 70px 32px 0px;
+}
+.footer-second-step{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-area-title{
+  text-align: left;
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.footer-area-discription{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.footer-area-contact-title{
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.footer-second-step .list{
+  margin-bottom: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer-second-step .list-link{
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer-second-step li:hover a{
+  position: relative;
+    color: palegoldenrod;
+    text-decoration: underline;
+    left: 20px;
+}
+hr{
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.footer-last-part .personal{
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 70px;
+  text-align: center;
 }
