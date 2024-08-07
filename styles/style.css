@@ -41,6 +41,7 @@
   background-color: rgb(230, 83, 60);
   border: none;
   border-radius: 30px;
+  cursor: pointer;
 }
 .btn-primary2{
   padding: 17px 50px;
@@ -49,6 +50,7 @@
   border: 1px solid rgb(255, 255, 255);
   border-radius: 30px;
   margin-left: 20px;
+  cursor: pointer;
 }
 .icon-under{
     color: rgba(239, 237, 232, 0.65);
@@ -65,10 +67,18 @@
 .position{
   position: relative;
 }
+/* about section five-part start akta part*/
+.code{
+  background-repeat: no-repeat;
+  height: 315px;
+  background-size: cover;
+  border-radius: 18px;
+  background-position: center center;
+}
 /* header-area start */
 #header-area{
   margin-bottom: 100px;
-  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+  background: linear-gradient(to top, rgb(17, 17, 17),rgba(119, 119, 119, 0));
 }
 .logo-and-manu{
   justify-content: space-between;
@@ -150,8 +160,8 @@
 }
 .watch-button1 {
   position: absolute;
-  left: 32px;
-  top: 76%;
+  right: 66%;
+  top: 73%;
   display: flex;
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -362,7 +372,7 @@
   margin-top: 10px;
   margin-bottom: 30px;
 }
-/* about section five-area start */
+/* about section five-part start */
 .five-part{
   margin-bottom: 90px;
 }
@@ -389,45 +399,21 @@
 }
 .first-image-part{
   background-image:url("../images/trainer1.png");
-  background-repeat: no-repeat;
-  height: 315px;
-  background-size: cover;
-  border-radius: 18px;
 }
 .second-image-part{
   background-image: url("../images/trainer2.png");
-  background-repeat: no-repeat;
-  height: 315px;
-  background-size: cover;
-  border-radius: 18px;
 }
 .third-image-part{
   background-image: url("../images/trainer3.png");
-  background-repeat: no-repeat;
-  height: 315px;
-  background-size: cover;
-  border-radius: 18px;
 }
 .four-image-part{
   background-image: url("../images/trainer4.png");
-  background-repeat: no-repeat;
-  height: 315px;
-  background-size: cover;
-  border-radius: 18px;
 }
 .five-image-part{
   background-image: url("../images/trainer5.png");
-  background-repeat: no-repeat;
-  height: 315px;
-  background-size: cover;
-  border-radius: 18px;
 }
 .six-image-part{
   background-image: url("../images/trainer6.png");
-  background-repeat: no-repeat;
-  height: 315px;
-  background-size: cover;
-  border-radius: 18px;
 }
 .text-image{
   position: absolute;
@@ -514,7 +500,26 @@ hr{
     display: flex;
     flex-direction: column;
  }
+ /* banner watch button start */
+  .watch-button1 .text {
+    padding: 10px 17px 10px 0px;
+  }
+  .watch-button1 .text-title{
+    font-size: 18px;
+  }
+  .watch-button1 .text-discription{
+    font-size: 8px;
+  }
+  .watch-button2 .text-title{
+    font-size: 26px;
+  }
+  .watch-button2 .text-discription{
+    font-size: 9px;
+  }
   .banner-area .title-area{
+    width: 100%;
+  }
+  .banner-area .title{
     width: 100%;
   }
   .banner-area .image-area{
@@ -530,11 +535,33 @@ hr{
   .banner-shape{
     font-size: 102px;
   }
+  .btn-primary{
+    padding: 21px 21px;
+  }
+  .btn-primary2{
+    padding: 21px 21px;
+  }
   /* About area responsive start */
   .first-step .img-box{
     display: flex;
     gap: 20px;
     flex-direction: column;
+  }
+  .img-box .picture {
+    margin-bottom: 26px;
+  }
+  .about-title{
+    font-size: 34px;
+  }
+  .about-discription{
+    font-size: 1rem;
+  }
+  .img-box .img-title{
+    font-size: 19px;
+  }
+  .img-box .img-discription{
+    font-size: 15px;
+    margin: 0px 30px 0px 30px;
   }
   /* second step start */
   .second-step .second-title-image{
@@ -542,6 +569,32 @@ hr{
     justify-content: space-between;
     gap: 37px;
     flex-direction: column;
+  }
+  .second-title-image .second-title{
+    padding: 0;
+  }
+  .second-step-title{
+    font-size: 40px;
+  }
+  .second-step-discription{
+    font-size: 14px;
+  }
+  .about-button{
+    width: 100%;
+  }
+  .second-title-image .second-image {
+    padding: 0;
+  }
+  .second-title-image img {
+    width: 100%;
+  }
+  /* third-step-start */
+  .third-part {
+    margin-bottom: 50px;
+  }
+  .third-step-title{
+    font-size: 39px;
+    margin-bottom: 13px;
   }
   /* four part start */
   .four-part .bmi-calculator-two-part{
@@ -554,6 +607,18 @@ hr{
   .calculate-your-bmi {
     width: 100%;
   }
+  .calculator-title{
+    font-size: 22px;
+  }
+  .calculator-bmi-title {
+    font-size: 22px;
+  }
+  .Calculator-discription{
+    font-size: 14px;
+  }
+  .calculator-btn{
+    width: 60%;
+  }
   /* five part start */
   .five-part .all-image{
     padding: 20px;
@@ -561,16 +626,35 @@ hr{
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
   }
+  .five-step-title {
+    font-size: 39px;
+  }
   /* footer section start */
   .footer-area-two-part {
     width: 100%;
     display: flex;
-    gap: 50px;
+    gap: 20px;
     flex-direction: column;
   }
   .footer-area .footer-second-step{
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
+  }
+  .footer-first-step {
+    width: 100%;
+    padding: 0;
+  }
+  .footer-area-title{
+    font-size: 65px;
+  }
+  .footer-area-contact-title{
+    font-size: 33px;
+  }
+  .footer-second-step .list-link{
+    font-size: 22px;
+  }
+  .footer-last-part .personal{
+    font-size: 18px;
   }
 }
