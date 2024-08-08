@@ -117,6 +117,9 @@
 }
 .title-area{
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .image-area{
   width: 50%;
@@ -229,6 +232,7 @@
  .img-box{ 
   display: flex;
   gap: 20px;
+  justify-content: space-evenly;
  }
  .img-box .picture{
   display: flex;
@@ -483,7 +487,12 @@ hr{
   line-height: 70px;
   text-align: center;
 }
-/* Responsive small device */
+/* ================================
+           RESPONSIVE START
+           ------------------
+        Responsive small device 
+===================================*/
+
 @media screen and (max-width:576px) {
   /* header */
   .container .links{
@@ -656,5 +665,95 @@ hr{
   }
   .footer-last-part .personal{
     font-size: 18px;
+  }
+}
+/* ==================
+    tablet responsive
+======================*/
+@media screen and (min-width:576px) and (max-width:992px){
+  /* =========================
+  ------Header section start-----
+  ============================*/
+  /* nav bar start */
+  .manu-area .items {
+    padding: 12px;
+  }
+  .manu-area .list {
+    border-radius: 0;
+    background: none;
+  }
+  .manu-area .link{
+    color: #ffbc00;
+  }
+  /* nav bar end */
+  /* banner start */
+  .banner-area .title-image{
+    flex-direction: column-reverse;
+  }
+  .banner-area .image-area{
+    width: 100%;
+  }
+  .banner-area .title-area{
+    width: 100%;
+  }
+  .banner-area .title{
+    padding-right: 53px ;
+  }
+  .banner-area .banner-title{
+    font-size: 64px;
+    color: rgb(221 149 149);
+  }
+  .banner-shape {
+    font-size: 122px;
+  }
+  /* banner end */
+
+  /* =================================
+  ---------Main section start--------
+  ====================================*/
+  /* about first step */
+  .img-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  /* second step */
+  .second-title-image{
+    flex-direction: column-reverse;
+  }
+  .second-title-image .second-image {
+    padding: 0;
+    text-align: center;
+  }
+  /* four step */
+  .bmi-calculator-two-part{
+    flex-direction: column-reverse;
+  }
+  .calculate-your-bmi {
+    width: 100%;
+  }
+  .bmi-calculator-chart {
+    width: 100%;
+  }
+  /* five part */
+  .all-image{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+    /* =================================
+  ---------Footer section start--------
+  ====================================*/
+  /* footer area */
+  .footer-area-two-part{
+    flex-wrap: wrap;
+  }
+  .footer-area-title-discription {
+    padding: 0;
+  }
+  .footer-first-step{
+    width: 100%;
+    padding: 0;
+  }
+  .footer-second-step{
+    width: 100%;
   }
 }
