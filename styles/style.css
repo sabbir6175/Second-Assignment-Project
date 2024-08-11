@@ -78,6 +78,9 @@
   align-items: center;
   padding-top: 37px;
 }
+.logo-and-manu .logo{
+  font-style: italic ;
+}
 .manu-area{
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 39px;
@@ -150,7 +153,8 @@
 }
 .watch-button1 {
   position: absolute;
-  right: 66%;
+  width: 30%;
+  right: 58%;
   top: 73%;
   display: flex;
   box-sizing: border-box;
@@ -177,8 +181,10 @@
 }
 .watch-button2{
   position: absolute;
+  width: 30%;
   left: 58%;
   top: 25%;
+  text-align: left;
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
@@ -248,21 +254,25 @@
   margin-bottom: 90px;
 }
 .second-title-image{
+  width: 100%;
   display: flex;
   justify-content: space-between;
   gap: 150px;
 }
 .second-title-image img{
-  width: 366px;
+  width: 100%;
   border-radius: 18px;
   height: 312px;
 }
 .second-title-image .second-title{
+  width: 60%;
   padding: 27px 0px 27px 54px;
 }
 .second-title-image .second-image{
+  width: 40%;
   padding: 31px 32px 30px 0px ;
 }
+
 .second-step-title{
   font-size: 48px;
   font-weight: 900;
@@ -479,7 +489,7 @@ option{
   color: rgba(255, 255, 255, 0.5);
 }
 .footer-second-step .list-link{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.5);
 }
@@ -555,10 +565,13 @@ hr{
   .watch-button1{
     right: 54%;
     top: 48%;
+    width: 50%;
   }
   .watch-button2{
     left: 54%;
     top: 10%;
+    width: 50%;
+    text-align: left;
   }
   .watch-button1 .text-title{
     font-size: 18px;
@@ -612,10 +625,11 @@ hr{
     justify-content: space-between;
     gap: 37px;
     flex-direction: column;
-    padding: 32px;
+    /* padding: 32px; */
   }
   .second-title-image .second-title{
     padding: 0;
+    width: 100%;
   }
   .second-step-title{
     font-size: 30px;
@@ -628,9 +642,13 @@ hr{
   }
   .second-title-image .second-image {
     padding: 0;
+    width: 100%;
   }
   .second-title-image img {
     width: 100%;
+  }
+  .run-and-extra{
+    padding: 28px;
   }
   /* third-step-start */
   .third-part {
@@ -654,6 +672,7 @@ hr{
   }
   .four-part .bmi-calculator-chart{
     width: 100%;
+    margin-bottom: 15px;
   }
   .calculate-your-bmi {
     width: 100%;
@@ -708,6 +727,9 @@ hr{
     width: 100%;
     padding: 0;
   }
+  .footer-area-title-discription {
+    padding: 0 50px 32px 0px;
+  }
   .footer-area-title{
     font-size: 65px;
   }
@@ -717,8 +739,11 @@ hr{
   .footer-area-contact-title{
     font-size: 33px;
   }
+  .footer-area-title-contact{
+    margin-bottom: 15px;
+  }
   .footer-second-step .list-link{
-    font-size: 22px;
+    font-size: 18px;
   }
   .footer-last-part .personal{
     font-size: 14px;
@@ -727,28 +752,24 @@ hr{
 /* ==================
     tablet responsive
 ======================*/
-@media screen and (min-width:576px) and (max-width:992px){
+@media screen and (min-width:577px) and (max-width:992px){
   /* =========================
   ------Header section start-----
   ============================*/
   /* nav bar start */
   .manu-area .items {
-    padding: 12px;
+    padding: 8px 13px;
   }
-  .manu-area .list {
-    border-radius: 0;
-    background: none;
-  }
-  .manu-area .link{
-    color: #ffbc00;
+  .manu-area .link {
+    font-size: 14px;
   }
   /* nav bar end */
   /* banner start */
-  .banner-area .title-image{
-    flex-direction: column-reverse;
+  .title-image{
+    flex-direction: column;
     gap: 42px;
   }
-  .banner-area .image-area{
+  .image-area{
     width: 100%;
   }
   .banner-area .title-area{
@@ -758,11 +779,24 @@ hr{
     padding-right: 53px ;
   }
   .banner-area .banner-title{
-    font-size: 64px;
+    font-size: 53px;
     font-weight: 800;
   }
+  .banner-discription{
+    font-size: 13px;
+  }
   .banner-shape {
-    font-size: 122px;
+    font-size: 99px;
+  }
+  .watch-button1{
+    width: 33%;
+    right: 53%;
+    top: 62%;
+  }
+  .watch-button2{
+    width: 33%;
+    left: 53%;
+    top: 13%;
   }
   /* banner end */
 
@@ -774,25 +808,55 @@ hr{
     display: grid;
     grid-template-columns: repeat(2,1fr);
   }
+  .img-box .img-discription{
+    font-size: 15px;
+  }
   /* second step */
   .second-title-image{
-    flex-direction: column-reverse;
-    gap: 0;
+    gap: 47px;
   }
   .second-title-image .second-image {
     padding: 0;
     text-align: center;
+    height: 296px;
+  }
+  .second-title-image .second-image img{
+    height: 296px;
+  }
+  .run-and-extra{
+    padding: 20px;
+  }
+  .second-title-image .second-title {
+    padding: 0;
+  }
+  .second-step-title{
+    font-size: 31px;
+  }
+  .second-step-discription{
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+  .about-button {
+    width: 46%;
   }
   /* four step */
   .bmi-calculator-two-part{
-    flex-direction: column-reverse;
+    flex-direction:column;
   }
   .calculate-your-bmi {
     width: 100%;
   }
   .bmi-calculator-chart {
     width: 100%;
+    margin-bottom: 30px;
   }
+  .Calculator-discription{
+    font-size: 14px;
+  }
+  .calculator-input-box .input{
+    width: 85%;
+  }
+  
   /* five part */
   .all-image{
     grid-template-columns: repeat(2, 1fr);
@@ -814,5 +878,71 @@ hr{
   }
   .footer-second-step{
     width: 100%;
+  }
+}
+/* ===========================
+    Large Device responsive
+===============================*/
+@media screen and (min-width:993px) and (max-width:1280px){
+  /* header banner area */
+  .banner-area .banner-title {
+    font-size: 64px;
+  }
+  .banner-shape{
+    font-size: 123px;
+  }
+  .banner-area .title-image{
+    gap: 38px;
+  }
+  .watch-button1{
+    width: 40%;
+    right: 59%;
+    top: 70%;
+  }
+  .watch-button2{
+    width: 40%;
+    top: 19%;
+    padding: 10px;
+  }
+  /* main er second step */
+  .second-image{
+    height: 344px;
+  }
+  .second-image img{
+    height: 344px;
+  }
+  .about-button{
+    width: 50%;
+  }
+  /* main er four part */
+  .bmi-calculator-two-part{
+    gap: 20px;
+  }
+  .calculator-input-box .input{
+    width: 85%;
+  }
+  .input-calculator{
+    width: 30%;
+    height: 46px;
+  }
+  /* five part */
+  .five-step-discription {
+    font-size: 15px;
+  }
+  /* footer section  */
+  .footer-second-step{
+    gap: 10px;
+  }
+  .footer-area-contact-title{
+    font-size: 27px;
+  }
+  .footer-second-step .list-link{
+    font-size: 16px;
+  }
+  .footer-second-step .list {
+    margin-bottom: 22px;
+  }
+  .footer-area-title-discription {
+    padding: 0 45px 32px 0px;
   }
 }
