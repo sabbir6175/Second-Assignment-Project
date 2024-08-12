@@ -312,7 +312,7 @@
 }
 .unique-three-card{
    display: grid;
-   gap: 10px;
+   gap: 20px;
    grid-template-columns: repeat(3,1fr);
 }
 .one-card-hide{
